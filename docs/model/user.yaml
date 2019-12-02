@@ -1,0 +1,15 @@
+definitions:        # Schema defination for request body
+  signUp:
+    type: object
+    properties:
+      user:
+        type: object
+        properties:
+          username:
+            type: string
+          email:
+            type: string
+          password:
+            type: string
+  getUser:
+    $ref: "./getUser.yaml"

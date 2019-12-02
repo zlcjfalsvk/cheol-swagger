@@ -1,0 +1,15 @@
+definitions:        # Schema definition for the request body
+  updatePet:
+    type: object
+    properties:
+      pet:
+        type: object
+        properties:
+          petname:
+            type: string
+          petFavorite:
+            type: string
+          image:
+            type: string
+          password:
+            type: string

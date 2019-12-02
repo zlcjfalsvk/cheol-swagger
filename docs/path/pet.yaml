@@ -23,18 +23,3 @@ paths:
           description: An object with a user updated user profile detail
         401:
           description: Unauthorized users
-definitions:        # Schema definition for the request body
-  updatePet:
-    type: object
-    properties:
-      pet:
-        type: object
-        properties:
-          petname:
-            type: string
-          petFavorite:
-            type: string
-          image:
-            type: string
-          password:
-            type: string
