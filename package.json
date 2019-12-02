@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node swagger.js",
+    "start": "ts-node ./src/swagger.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
